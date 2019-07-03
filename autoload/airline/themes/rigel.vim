@@ -4,7 +4,7 @@
 " URL:
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/03 17:34
+" Last Change: 2019/07/03 17:57
 " ============================================================
 
 let g:airline#themes#rigel#palette = {}
@@ -29,9 +29,9 @@ let s:visual2 = [ "#002635", "#fb94ff", 235, 213 ]
 let s:visual3 = [ "#fb94ff", "#00384d", 213, 23 ]
 let g:airline#themes#rigel#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
-let s:inactive1 = [ "#002635", "#e6e6dc", 235, 254 ]
-let s:inactive2 = [ "#002635", "#e6e6dc", 235, 254 ]
-let s:inactive3 = [ "#002635", "#e6e6dc", 235, 254 ]
+let s:inactive1 = [ "#00384d", "#517f8d", 23, 66 ]
+let s:inactive2 = [ "#77929e", "#00384d", 246, 23 ]
+let s:inactive3 = [ "#77929e", "#002635", 246, 235 ]
 let g:airline#themes#rigel#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 if !get(g:, 'loaded_ctrlp', 0)
