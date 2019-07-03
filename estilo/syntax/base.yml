@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn: 'background'
+Conceal: ''
+Cursor: '- color3'
+CursorIM: ''
+CursorColumn: '- color0'
+CursorLine: '- backgroundDark'
+CursorLineNr: 'color15 backgroundDark'
+LineNr: 'color7 background'
+Directory: ''
+DiffAdd: 'color2'
+DiffChange: 'color6'
+DiffDelete: 'color1'
+DiffText: 'foreground'
+ErrorMsg: 'color1'
+VertSplit: 'color8 background'
+Folded: 'color7 color0'
+FoldColumn: ''
+SignColumn: 'color15 background'
+IncSearch: 'background color11'
+MatchParen: 'background color14'
+ModeMsg: ''
+MoreMsg: ''
+NonText: 'color8'
+Normal: 'foreground background'
+PMenu: 'foreground color0'
+PMenuSel: 'color14 color8'
+PmenuSbar: ''
+PmenuThumb: ''
+Question: ''
+Search: 'background color3'
+SpecialKey: ''
+SpellBad: 'color8 - u'
+SpellLocal: '@SpellBad'
+SpellCap: '@SpellBad'
+SpellRare: '@SpellBad'
+StatusLine: ''
+StatusLineNC: ''
+TabLine: 'color7 color0'
+TabLineFill: '- color0'
+TabLineSel: 'foreground color4'
+Title: 'color14'
+Visual: '- color8'
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+# BASE SYNTAX
+Comment: 'color7'
+Constant: 'color3'
+String: 'color10' # Constant
+Character: '' # Constant
+Boolean: 'color9' # Constant
+Number: '@Boolean' # Constant
+Float: '@Boolean' # Constant
+Identifier: 'color3'
+Function: 'color12' # Identifier
+Statement: '@Keyword'
+Conditional: '@Keyword' # Statement
+Repeat: '' # Statement
+Label: 'color14' # Statement
+Operator: '@Constant' # Statement
+Keyword: 'color4' # Statement
+Exception: '' # Statement
+PreProc: '@Constant'
+Include: '@Comment' # PreProc
+Define: '@Comment' # PreProc
+Macro: 'color14' # PreProc
+PreCondit: '' # PreProc
+Type: 'color9'
+StorageClass: 'color7' # Type
+Structure: 'color4' # Type
+Typedef: 'color4' # Type
+Special: '@Keyword'
+SpecialChar: '' # Special
+Tag: 'color4' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: '@Comment'
+Error: 'color1'
+Todo: 'color15'

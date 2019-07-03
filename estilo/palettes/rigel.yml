@@ -1,0 +1,39 @@
+backgroundDark:   '#001a25'
+
+# special
+foreground:   '#e6e6dc'
+background:   '#002635'
+cursorColor:  '#e6e6dc'
+
+# black
+color0:       '#00384d'
+color8:       '#517f8d'
+
+# red
+color1:       '#ff5a67'
+color9:       '#ff5a67'
+
+# green
+color2:       '#7fc06e'
+color10:      '#9cf087'
+
+# yellow
+color3:       '#f08e48'
+color11:      '#ffcc1b'
+
+# blue
+color4:       '#1c8db2'
+color12:      '#7eb2dd'
+
+# magenta
+color5:       '#fb94ff'
+color13:      '#ff2cdc'
+
+# cyan
+color6:       '#00dcbd'
+color14:      '#00ffff'
+
+# white
+color7:       '#77929e'
+color15:      '#b7cff9'
+

@@ -1,0 +1,14 @@
+name: 'rigel'
+version: '1.0.0'
+license: 'MIT'
+author: 'Alexander Keliris'
+url: ''
+description: ''
+colorschemes:
+  - name: rigel
+    background: 'dark'
+    palette: rigel
+airline: 
+  - name: rigel 
+    palette: rigel 
+    style: rigel 

@@ -1,0 +1,99 @@
+# Javascript - pangloss/vim-javascript
+jsVariableDef: 'color15'
+jsStatement: '@Keyword'
+jsStorageClass: '@Keyword'
+jsExtendsKeyword: '@Keyword'
+jsTemplateString: 'color2'
+# jsFuncCall: 'contrast'
+jsReturn: '@Keyword'
+jsTryCatchBlock: '@Boolean'
+jsAsyncKeyword: '@Boolean'
+jsForAwait: '@Boolean'
+jsGlobalNodeObjects: 'color3'
+# Modules 
+jsImport: '@Keyword'
+jsFrom: '@Keyword'
+jsModuleAs: '@Keyword'
+jsModuleKeyword: 'color15'
+jsModuleAsterisk: '@Keyword'
+jsExport: '@Keyword'
+jsExportDefault: '@Keyword'
+
+# Flow 
+jsFlowDefinition: 'color3'
+jsFlowArgumentDef: 'color3'
+jsFlowType: 'color6'
+jsFlowObject: 'color15'
+jsFlowTypeStatement: 'color3'
+jsFlowMaybe: '@Keyword'
+jsFlowReturn: '@jsFlowType'
+jsFlowReturnObject: '@jsFlowType'
+jsFlowReturnArray: '@jsFlowType'
+jsFlowReturnParens: '@jsFlowType'
+jsFlowReturnArrow: '@jsFlowType'
+jsFlowReturnKeyword: '@jsFlowType'
+jsFlowReturnMaybe: '@jsFlowType'
+jsFlowReturnGroup: '@jsFlowType'
+jsFlowReturnOrOp: '@jsFlowType'
+jsFlowWildcardReturn: '@jsFlowType'
+jsFlowTypeofReturn: '@jsFlowType'
+jsFlowArray: '@jsFlowArgumentDef'
+jsFlowExactObject: '@jsFlowArgumentDef'
+jsFlowParens: 'foreground'
+jsFlowNoise: '@jsFlowType'
+jsFlowTypeof: 'color11'
+jsFlowTypeCustom: '@jsFlowType'
+jsFlowGeneric: 'color11'
+jsFlowObjectGeneric: '@jsFlowGeneric'
+jsFlowArrow: '@Function'
+jsFlowObjectKey: '@jsVariableDef'
+jsFlowOrOperator: '@jsFlowType'
+jsFlowImportType: '@jsFlowType'
+jsFlowWildcard: '@jsFlowType'
+jsFlowParenAnnotation: '@jsFlowType'
+# Objects
+jsObjectMethodType: '@Function'
+jsArrowFunction: '@Function'
+jsObjectProp: '@jsVariableDef'
+jsObjectKey: 'color14'
+jsFunctionKey: '@Function'
+jsRestExpression: '@Keyword'
+
+# Function 
+jsGenerator: '@Function'
+jsFunction: '@Keyword'
+
+# Builtins
+javaScriptComment: '' # Comment
+javaScriptLineComment: '' # Comment
+javaScriptCommentTodo: '' # Todo
+javaScriptSpecial: '' # Special
+javaScriptStringS: '' # String
+javaScriptStringD: '' # String
+javaScriptCharacter: '' # Character
+javaScriptSpecialCharacter: '' # javaScriptSpecial
+javaScriptNumber: '' # javaScriptValue
+javaScriptConditional: '' # Conditional
+javaScriptRepeat: '' # Repeat
+javaScriptBranch: '' # Conditional
+javaScriptOperator: '' # Operator
+javaScriptType: '' # Type
+javaScriptStatement: '@Keyword' # Statement
+javaScriptFunction: '' # Function
+javaScriptBraces: '' # Function
+javaScriptError: '' # Error
+javaScriptParensError: '' # Error
+javaScriptNull: '' # Keyword
+javaScriptBoolean: '' # Boolean
+javaScriptRegexpString: '' # String
+javaScriptIdentifier: '' # Identifier
+javaScriptLabel: '' # Label
+javaScriptException: '' # Exception
+javaScriptMessage: '' # Keyword
+javaScriptGlobal: '' # Keyword
+javaScriptMember: '' # Keyword
+javaScriptDeprecated: '' # Exception
+javaScriptReserved: '' # Keyword
+javaScriptDebug: '' # Debug
+javaScriptConstant: '' # Label
+
