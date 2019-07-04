@@ -54,20 +54,20 @@ Number: '@Boolean' # Constant
 Float: '@Boolean' # Constant
 Identifier: 'color3'
 Function: 'color12' # Identifier
-Statement: '@Keyword'
+Statement: 'color4'
 Conditional: '@Keyword' # Statement
 Repeat: '@Keyword' # Statement
 Label: '@Keyword' # Statement
 Operator: '@Constant' # Statement
 Keyword: 'color4' # Statement
-Exception: '' # Statement
+Exception: 'color1' # Statement
 PreProc: '@Constant'
-Include: '@Comment' # PreProc
-Define: '@Comment' # PreProc
-Macro: 'color14' # PreProc
+Include: 'color6' # PreProc
+Define: '@Include' # PreProc
+Macro: '@Include' # PreProc
 PreCondit: '' # PreProc
 Type: 'color9'
-StorageClass: 'color7' # Type
+StorageClass: '@Keyword' # Type
 Structure: 'color4' # Type
 Typedef: 'color4' # Type
 Special: '@Keyword'

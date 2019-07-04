@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/04 12:42
+" Last Change: 2019/07/04 15:48
 " ===============================================================
 
 set background=dark
@@ -35,9 +35,9 @@ hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#001a25 ctermbg=234 gui=NONE cte
 hi LineNr guifg=#77929e ctermfg=246 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
 hi DiffAdd guifg=#7fc06e ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#e35142 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffDelete guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#e6e6dc ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ErrorMsg guifg=#e35142 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ErrorMsg guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#517f8d ctermfg=66 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
 hi Folded guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi SignColumn guifg=#b7cff9 ctermfg=153 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
@@ -65,18 +65,19 @@ hi link Number Boolean
 hi link Float Boolean
 hi Identifier guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#7eb2dd ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link Statement Keyword
+hi Statement guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Conditional Keyword
 hi link Repeat Keyword
 hi link Label Keyword
 hi link Operator Constant
 hi Keyword guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Exception guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link PreProc Constant
-hi link Include Comment
-hi link Define Comment
-hi Macro guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Include guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link Define Include
+hi link Macro Include
 hi Type guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi StorageClass guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link StorageClass Keyword
 hi Structure guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
@@ -85,7 +86,7 @@ hi SpecialComment guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cter
 hi Debug guifg=#fb94ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link Ignore Comment
-hi Error guifg=#e35142 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Error guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsStatement Keyword
