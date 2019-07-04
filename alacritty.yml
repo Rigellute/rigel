@@ -7,11 +7,11 @@ colors:
   # Normal colors
   normal:
     black:   '0x00384d'
-    red:     '0xff5a67'
+    red:     '0xe35142'
     green:   '0x7fc06e'
     yellow:  '0xf08e48'
     blue:    '0x1c8db2'
-    magenta: '0xfb94ff'
+    magenta: '0xc694ff'
     cyan:    '0x00dcbd'
     white:   '0x77929e'
 
@@ -22,7 +22,7 @@ colors:
     green:   '0x9cf087'
     yellow:  '0xffcc1b'
     blue:    '0x7eb2dd'
-    magenta: '0xff2cdc'
+    magenta: '0xfb94ff'
     cyan:    '0x00ffff'
     white:   '0xb7cff9'
 
