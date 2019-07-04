@@ -1,0 +1,11 @@
+{
+  "name": "rigel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Rigellute/rigel.git",
+  "author": "Rigellute <rigellute@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "termcolors": "^0.5.0"
+  }
+}
