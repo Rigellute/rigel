@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/03 17:57
+" Last Change: 2019/07/04 10:02
 " ===============================================================
 
 set background=dark
@@ -48,7 +48,7 @@ hi Normal guifg=#e6e6dc ctermfg=254 guibg=#002635 ctermbg=235 gui=NONE cterm=NON
 hi PMenu guifg=#e6e6dc ctermfg=254 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi PMenuSel guifg=#00ffff ctermfg=14 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi Search guifg=#002635 ctermfg=235 guibg=#f08e48 ctermbg=209 gui=NONE cterm=NONE
-hi SpellBad guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi SpellBad guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link SpellLocal SpellBad
 hi link SpellCap SpellBad
 hi link SpellRare SpellBad
@@ -80,6 +80,8 @@ hi Structure guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Typedef guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
 hi Tag guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Delimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi link Underlined SpellBad
 hi link Ignore Comment
 hi Error guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

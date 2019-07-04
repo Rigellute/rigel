@@ -30,7 +30,7 @@ PmenuThumb: ''
 Question: ''
 Search: 'background color3'
 SpecialKey: ''
-SpellBad: 'color8 - u'
+SpellBad: 'color7 - u'
 SpellLocal: '@SpellBad'
 SpellCap: '@SpellBad'
 SpellRare: '@SpellBad'
@@ -73,10 +73,10 @@ Typedef: 'color4' # Type
 Special: '@Keyword'
 SpecialChar: '' # Special
 Tag: 'color4' # Special
-Delimiter: '' # Special
+Delimiter: 'color8 - u' # Special
 SpecialComment: '' # Special
 Debug: '' # Special
-Underlined: ''
+Underlined: '@SpellBad'
 Ignore: '@Comment'
 Error: 'color1'
 Todo: 'color15'
