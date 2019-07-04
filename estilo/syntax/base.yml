@@ -56,8 +56,8 @@ Identifier: 'color3'
 Function: 'color12' # Identifier
 Statement: '@Keyword'
 Conditional: '@Keyword' # Statement
-Repeat: '' # Statement
-Label: 'color14' # Statement
+Repeat: '@Keyword' # Statement
+Label: '@Keyword' # Statement
 Operator: '@Constant' # Statement
 Keyword: 'color4' # Statement
 Exception: '' # Statement
@@ -73,10 +73,10 @@ Typedef: 'color4' # Type
 Special: '@Keyword'
 SpecialChar: '' # Special
 Tag: 'color4' # Special
-Delimiter: 'color8 - u' # Special
-SpecialComment: '' # Special
-Debug: '' # Special
-Underlined: '@SpellBad'
+Delimiter: '' # Special
+SpecialComment: 'color14' # Special
+Debug: 'color13' # Special
+Underlined: 'color15 - u'
 Ignore: '@Comment'
 Error: 'color1'
-Todo: 'color15'
+Todo: 'color6'

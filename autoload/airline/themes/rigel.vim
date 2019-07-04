@@ -4,7 +4,7 @@
 " URL:
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/04 10:02
+" Last Change: 2019/07/04 10:53
 " ============================================================
 
 let g:airline#themes#rigel#palette = {}
@@ -19,9 +19,9 @@ let s:insert2 = [ "#002635", "#f08e48", 235, 209 ]
 let s:insert3 = [ "#00ffff", "#00384d", 14, 23 ]
 let g:airline#themes#rigel#palette.insert = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
 
-let s:replace1 = [ "#002635", "#ff5a67", 235, 203 ]
+let s:replace1 = [ "#002635", "#ff8080", 235, 210 ]
 let s:replace2 = [ "#002635", "#f08e48", 235, 209 ]
-let s:replace3 = [ "#ff5a67", "#00384d", 203, 23 ]
+let s:replace3 = [ "#ff8080", "#00384d", 210, 23 ]
 let g:airline#themes#rigel#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
 let s:visual1 = [ "#002635", "#ff2cdc", 235, 200 ]

@@ -1,12 +1,12 @@
-markdownH1: '' # htmlH1
-markdownH2: '' # htmlH2
-markdownH3: '' # htmlH3
-markdownH4: '' # htmlH4
-markdownH5: '' # htmlH5
-markdownH6: '' # htmlH6
+markdownH1: 'color8 - b' # htmlH1
+markdownH2: '@markdownH1' # htmlH2
+markdownH3: 'color8' # htmlH3
+markdownH4: 'color8' # htmlH4
+markdownH5: 'color8' # htmlH5
+markdownH6: 'color8' # htmlH6
 markdownHeadingRule: '' # markdownRule
-markdownHeadingDelimiter: '' # Delimiter
-markdownOrderedListMarker: '' # markdownListMarker
+markdownHeadingDelimiter: 'color8' # Delimiter
+markdownOrderedListMarker: 'color8' # markdownListMarker
 markdownListMarker: '' # htmlTagName
 markdownBlockquote: '' # Comment
 markdownRule: '' # PreProc
@@ -22,6 +22,7 @@ markdownUrlTitleDelimiter: '' # Delimiter
 markdownItalic: '' # htmlItalic
 markdownBold: '' # htmlBold
 markdownBoldItalic: '' # htmlBoldItalic
-markdownCodeDelimiter: '' # Delimiter
+markdownCodeDelimiter: 'color8' # Delimiter
 markdownEscape: '' # Special
 markdownError: '' # Error
+markdownCode: 'color8'
