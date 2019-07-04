@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/04 10:53
+" Last Change: 2019/07/04 12:42
 " ===============================================================
 
 set background=dark
@@ -34,10 +34,10 @@ hi CursorLine guifg=NONE ctermfg=NONE guibg=#001a25 ctermbg=234 gui=NONE cterm=N
 hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
 hi LineNr guifg=#77929e ctermfg=246 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
 hi DiffAdd guifg=#7fc06e ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffChange guifg=#00dcbd ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChange guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffDelete guifg=#e35142 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#e6e6dc ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi ErrorMsg guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ErrorMsg guifg=#e35142 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#517f8d ctermfg=66 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
 hi Folded guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi SignColumn guifg=#b7cff9 ctermfg=153 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
@@ -60,7 +60,7 @@ hi Visual guifg=NONE ctermfg=NONE guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi Comment guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#9cf087 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Boolean guifg=#ff8080 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Boolean guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Number Boolean
 hi link Float Boolean
 hi Identifier guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -75,18 +75,18 @@ hi link PreProc Constant
 hi link Include Comment
 hi link Define Comment
 hi Macro guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Type guifg=#ff8080 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Type guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StorageClass guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Structure guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Typedef guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Special Keyword
 hi Tag guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Debug guifg=#ff2cdc ctermfg=200 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Debug guifg=#fb94ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link Ignore Comment
-hi Error guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Todo guifg=#00dcbd ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Error guifg=#e35142 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Todo guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsStatement Keyword
 hi link jsStorageClass Keyword
@@ -106,7 +106,7 @@ hi link jsExport Keyword
 hi link jsExportDefault Keyword
 hi jsFlowDefinition guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowArgumentDef guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsFlowType guifg=#00dcbd ctermfg=43 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFlowType guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowObject guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowTypeStatement guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFlowMaybe Keyword

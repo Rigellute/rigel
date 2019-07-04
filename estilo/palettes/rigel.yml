@@ -10,8 +10,8 @@ color0:       '#00384d'
 color8:       '#517f8d'
 
 # red
-color1:       '#ff5a67'
-color9:       '#ff8080'
+color1:       '#e35142'
+color9:       '#ff5a67'
 
 # green
 color2:       '#7fc06e'
@@ -26,11 +26,11 @@ color4:       '#1c8db2'
 color12:      '#7eb2dd'
 
 # magenta
-color5:       '#fb94ff'
-color13:      '#ff2cdc'
+color5:       '#c694ff'
+color13:      '#fb94ff'
 
 # cyan
-color6:       '#00dcbd'
+color6:       '#00cccc'
 color14:      '#00ffff'
 
 # white
