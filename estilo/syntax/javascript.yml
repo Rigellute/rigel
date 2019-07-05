@@ -11,12 +11,12 @@ jsAsyncKeyword: '@Boolean'
 jsForAwait: '@Boolean'
 jsGlobalNodeObjects: 'color3'
 # Modules 
-jsImport: '@Keyword'
+jsImport: 'color4 - i'
 jsFrom: '@Keyword'
 jsModuleAs: '@Keyword'
 jsModuleKeyword: 'color15'
 jsModuleAsterisk: '@Keyword'
-jsExport: '@Keyword'
+jsExport: 'color4 - i'
 jsExportDefault: '@Keyword'
 
 # Flow 

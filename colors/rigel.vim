@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/05 10:17
+" Last Change: 2019/07/05 11:12
 " ===============================================================
 
 set background=dark
@@ -100,12 +100,12 @@ hi link jsTryCatchBlock Boolean
 hi link jsAsyncKeyword Boolean
 hi link jsForAwait Boolean
 hi jsGlobalNodeObjects guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link jsImport Keyword
+hi jsImport guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsFrom Keyword
 hi link jsModuleAs Keyword
 hi jsModuleKeyword guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsModuleAsterisk Keyword
-hi link jsExport Keyword
+hi jsExport guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsExportDefault Keyword
 hi jsFlowDefinition guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowArgumentDef guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
