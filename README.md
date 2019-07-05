@@ -1,6 +1,7 @@
 # Colorscheme based on the star Rigel ✨
 
 <img width="1103" alt="vim" src="https://user-images.githubusercontent.com/12150276/60734656-8cc9ae00-9f48-11e9-9bbb-7020d8f9130f.png">
+
 ## Install for vim
 
 ```vim
@@ -37,5 +38,12 @@ TODO: create lightline theme
 ## Terminal
 
 <img width="1064" alt="terminal" src="https://user-images.githubusercontent.com/12150276/60734655-8cc9ae00-9f48-11e9-994e-70f055945cfb.png">
+
 - [Alacritty](./alacritty.yml)
 - [iTerm2](./rigel.itermcolors)
+
+## Slack
+
+1. Go to Slack's `Preferences` → `Sidebar Theme`
+1. Scroll to the bottom and paste these colors: `#002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67`
+1. Done!!! 🙌
