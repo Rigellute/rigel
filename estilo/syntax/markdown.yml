@@ -1,9 +1,9 @@
-markdownH1: 'color8 - b' # htmlH1
-markdownH2: '@markdownH1' # htmlH2
-markdownH3: 'color8' # htmlH3
-markdownH4: 'color8' # htmlH4
-markdownH5: 'color8' # htmlH5
-markdownH6: 'color8' # htmlH6
+htmlH1: 'color6 - b' # htmlH1
+htmlH2: '@markdownH1' # htmlH2
+htmlH3: 'color6' # htmlH3
+htmlH4: '@htmlH3' # htmlH4
+htmlH5: '@htmlH3' # htmlH5
+htmlH6: '@htmlH3' # htmlH6
 markdownHeadingRule: '' # markdownRule
 markdownHeadingDelimiter: 'color8' # Delimiter
 markdownOrderedListMarker: 'color8' # markdownListMarker
