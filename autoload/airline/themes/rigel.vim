@@ -4,7 +4,7 @@
 " URL:
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/05 11:12
+" Last Change: 2019/07/05 12:17
 " ============================================================
 
 let g:airline#themes#rigel#palette = {}
