@@ -79,7 +79,7 @@ Debug: 'color13' # Special
 Underlined: 'color15 - u'
 Ignore: '@Comment'
 Error: 'color1'
-Todo: 'color6'
+Todo: 'color13'
 # tpope/vim-fugitive
 diffAdded: '@DiffAdd'
 diffRemoved: '@DiffDelete'

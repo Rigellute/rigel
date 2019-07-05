@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/05 12:17
+" Last Change: 2019/07/05 17:19
 " ===============================================================
 
 set background=dark
@@ -90,7 +90,7 @@ hi Debug guifg=#fb94ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link Ignore Comment
 hi Error guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Todo guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Todo guifg=#fb94ff ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -151,7 +151,7 @@ hi link jsGenerator Function
 hi link jsFunction Keyword
 hi link javaScriptStatement Keyword
 hi htmlH1 guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi link htmlH2 markdownH1
+hi link htmlH2 htmlH1
 hi htmlH3 guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlH4 htmlH3
 hi link htmlH5 htmlH3

@@ -1,5 +1,5 @@
 htmlH1: 'color6 - b' # htmlH1
-htmlH2: '@markdownH1' # htmlH2
+htmlH2: '@htmlH1' # htmlH2
 htmlH3: 'color6' # htmlH3
 htmlH4: '@htmlH3' # htmlH4
 htmlH5: '@htmlH3' # htmlH5
