@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/04 15:48
+" Last Change: 2019/07/05 10:17
 " ===============================================================
 
 set background=dark
@@ -33,9 +33,9 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#00384d ctermbg=23 gui=NONE cterm=
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#b7cff9 ctermfg=153 guibg=#001a25 ctermbg=234 gui=NONE cterm=NONE
 hi LineNr guifg=#77929e ctermfg=246 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
-hi DiffAdd guifg=#7fc06e ctermfg=107 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffChange guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffDelete guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffAdd guifg=#9cf087 ctermfg=156 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
+hi DiffChange guifg=#00cccc ctermfg=44 guibg=#002635 ctermbg=235 gui=underline cterm=underline
+hi DiffDelete guifg=#c43060 ctermfg=167 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
 hi DiffText guifg=#e6e6dc ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#517f8d ctermfg=66 guibg=#002635 ctermbg=235 gui=NONE cterm=NONE
@@ -88,6 +88,8 @@ hi Underlined guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=underline ct
 hi link Ignore Comment
 hi Error guifg=#c43060 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link diffAdded DiffAdd
+hi link diffRemoved DiffDelete
 hi jsVariableDef guifg=#b7cff9 ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsStatement Keyword
 hi link jsStorageClass Keyword
@@ -145,12 +147,12 @@ hi link jsRestExpression Keyword
 hi link jsGenerator Function
 hi link jsFunction Keyword
 hi link javaScriptStatement Keyword
-hi markdownH1 guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi link markdownH2 markdownH1
-hi markdownH3 guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH4 guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH5 guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownH6 guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH1 guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi link htmlH2 markdownH1
+hi htmlH3 guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link htmlH4 htmlH3
+hi link htmlH5 htmlH3
+hi link htmlH6 htmlH3
 hi markdownHeadingDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownOrderedListMarker guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#517f8d ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
