@@ -4,7 +4,7 @@
 " URL: 
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/05 17:19
+" Last Change: 2019/07/10 12:23
 " ===============================================================
 
 set background=dark
@@ -102,7 +102,7 @@ hi link jsReturn Keyword
 hi link jsTryCatchBlock Boolean
 hi link jsAsyncKeyword Boolean
 hi link jsForAwait Boolean
-hi jsGlobalNodeObjects guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsGlobalNodeObjects guifg=#c694ff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsImport guifg=#1c8db2 ctermfg=31 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsFrom Keyword
 hi link jsModuleAs Keyword
@@ -150,6 +150,10 @@ hi link jsRestExpression Keyword
 hi link jsGenerator Function
 hi link jsFunction Keyword
 hi link javaScriptStatement Keyword
+hi xmlAttrib guifg=#c694ff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link xmlTag Function
+hi link xmlTagName xmlTag
+hi link xmlEndTag xmlTag
 hi htmlH1 guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link htmlH2 htmlH1
 hi htmlH3 guifg=#00cccc ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

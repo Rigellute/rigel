@@ -9,7 +9,7 @@ jsReturn: '@Keyword'
 jsTryCatchBlock: '@Boolean'
 jsAsyncKeyword: '@Boolean'
 jsForAwait: '@Boolean'
-jsGlobalNodeObjects: 'color3'
+jsGlobalNodeObjects: 'color5'
 # Modules 
 jsImport: 'color4 - i'
 jsFrom: '@Keyword'
@@ -96,4 +96,10 @@ javaScriptDeprecated: '' # Exception
 javaScriptReserved: '' # Keyword
 javaScriptDebug: '' # Debug
 javaScriptConstant: '' # Label
+
+# JSX highlighting
+xmlAttrib: 'color5'
+xmlTag: '@Function'
+xmlTagName: '@xmlTag'
+xmlEndTag: '@xmlTag'
 
