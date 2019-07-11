@@ -32,13 +32,13 @@ colorscheme rigel
 
 If you are using JavaScript, I recommend adding [vim-javascript](https://github.com/pangloss/vim-javascript) for improved syntax highlighting.
 
-```
+```vim
 Plug 'pangloss/vim-javascript'
 ```
 
 This theme has good support for flow syntax, which you can enable with
 
-```
+```vim
 " Once vim-javascript is installed you enable flow highlighting
 let g:javascript_plugin_flow = 1
 
@@ -46,7 +46,7 @@ let g:javascript_plugin_flow = 1
 
 If you are using React, I recommend adding [vim-jsx](https://github.com/mxw/vim-jsx) for better jsx highlighting
 
-```
+```vim
 Plug 'mxw/vim-jsx'
 ```
 

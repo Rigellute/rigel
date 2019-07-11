@@ -2,7 +2,7 @@ name: 'rigel'
 version: '1.0.0'
 license: 'MIT'
 author: 'Alexander Keliris'
-url: ''
+url: 'https://github.com/Rigellute/rigel'
 description: ''
 colorschemes:
   - name: rigel
