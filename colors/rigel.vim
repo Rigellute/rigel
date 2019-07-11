@@ -1,10 +1,10 @@
 " ===============================================================
 " rigel
 " 
-" URL: 
+" URL: https://github.com/Rigellute/rigel
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/10 12:23
+" Last Change: 2019/07/11 12:03
 " ===============================================================
 
 set background=dark
@@ -150,7 +150,7 @@ hi link jsRestExpression Keyword
 hi link jsGenerator Function
 hi link jsFunction Keyword
 hi link javaScriptStatement Keyword
-hi xmlAttrib guifg=#c694ff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlAttrib guifg=#ff5a67 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link xmlTag Function
 hi link xmlTagName xmlTag
 hi link xmlEndTag xmlTag

@@ -98,7 +98,7 @@ javaScriptDebug: '' # Debug
 javaScriptConstant: '' # Label
 
 # JSX highlighting
-xmlAttrib: 'color5'
+xmlAttrib: 'color9'
 xmlTag: '@Function'
 xmlTagName: '@xmlTag'
 xmlEndTag: '@xmlTag'

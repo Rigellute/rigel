@@ -1,10 +1,10 @@
 " ============================================================
 " rigel
 " 
-" URL:
+" URL:https://github.com/Rigellute/rigel
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/10 12:23
+" Last Change: 2019/07/11 12:03
 " ============================================================
 
 let g:airline#themes#rigel#palette = {}
