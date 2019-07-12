@@ -4,7 +4,7 @@
 " URL: https://github.com/Rigellute/rigel
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/11 12:03
+" Last Change: 2019/07/12 09:57
 " ===============================================================
 
 set background=dark
@@ -144,7 +144,7 @@ hi link jsFlowParenAnnotation jsFlowType
 hi link jsObjectMethodType Function
 hi link jsArrowFunction Function
 hi link jsObjectProp jsVariableDef
-hi jsObjectKey guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectKey guifg=#c694ff ctermfg=177 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsFunctionKey Function
 hi link jsRestExpression Keyword
 hi link jsGenerator Function

@@ -55,7 +55,7 @@ jsFlowParenAnnotation: '@jsFlowType'
 jsObjectMethodType: '@Function'
 jsArrowFunction: '@Function'
 jsObjectProp: '@jsVariableDef'
-jsObjectKey: 'color14'
+jsObjectKey: 'color5'
 jsFunctionKey: '@Function'
 jsRestExpression: '@Keyword'
 
