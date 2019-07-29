@@ -78,6 +78,10 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 
 1. Copy [alacritty.yml](./alacritty.yml) and paste into `~/.config/alacritty/alacritty.yml`
 
+#### Kitty
+
+1. Copy [kitty.conf](./kitty.conf) and paste into `~/.config/kitty/kitty.conf`
+
 #### iTerm2
 
 1. Download [`rigel.itermcolors`](./rigel.itermcolors)
