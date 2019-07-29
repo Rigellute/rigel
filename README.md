@@ -50,7 +50,7 @@ If you are using React, I recommend adding [vim-jsx](https://github.com/mxw/vim-
 Plug 'mxw/vim-jsx'
 ```
 
-#### Airline
+#### [Airline](https://github.com/vim-airline/vim-airline)
 
 ![Airline](https://user-images.githubusercontent.com/12150276/60734661-8e937180-9f48-11e9-9aca-90c7a5d40dbf.png)
 
@@ -59,7 +59,7 @@ let g:rigel_airline = 1
 let g:airline_theme = 'rigel'
 ```
 
-#### Lightline
+#### [Lightline](https://github.com/itchyny/lightline.vim)
 
 ![Lightline](https://user-images.githubusercontent.com/12150276/62047242-e51b6500-b201-11e9-8403-84929b269084.png)
 
