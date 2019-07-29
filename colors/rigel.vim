@@ -4,7 +4,7 @@
 " URL: https://github.com/Rigellute/rigel
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/12 09:57
+" Last Change: 2019/07/29 11:45
 " ===============================================================
 
 set background=dark

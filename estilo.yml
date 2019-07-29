@@ -12,3 +12,7 @@ airline:
   - name: rigel 
     palette: rigel 
     style: rigel 
+lightline: 
+  - name: rigel 
+    palette: rigel 
+    style: rigel 

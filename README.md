@@ -61,7 +61,12 @@ let g:airline_theme = 'rigel'
 
 #### Lightline
 
-TODO: create lightline theme
+![Lightline](https://user-images.githubusercontent.com/12150276/62047242-e51b6500-b201-11e9-8403-84929b269084.png)
+
+```vim
+let g:rigel_lightline = 1
+let g:lightline = { 'colorscheme': 'rigel' }
+```
 
 ## Terminal
 
