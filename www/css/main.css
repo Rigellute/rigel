@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+:root {
+  --foreground: #e6e6dc;
+  --background: #002635;
+
+  /* # black */
+  --color0: #00384d;
+  --color8: #517f8d;
+
+  /* # red */
+  --color1: #c43060;
+  --color9: #ff5a67;
+
+  /* # green */
+  --color2: #7fc06e;
+  --color10: #9cf087;
+
+  /* # yellow */
+  --color3: #f08e48;
+  --color11: #ffcc1b;
+
+  /* # blue */
+  --color4: #1c8db2;
+  --color12: #7eb2dd;
+
+  /* # magenta */
+  --color5: #c694ff;
+  --color13: #fb94ff;
+
+  /* # cyan */
+  --color6: #00cccc;
+  --color14: #00ffff;
+
+  /* # white */
+  --color7: #77929e;
+  --color15: #b7cff9;
+
+  --star-small: 1px;
+  --star-medium: 2px;
+  --star-large: 3px;
+  --box-shadow: 0px 0px 6px 0.5px var(--foreground);
+}
+
+html {
+  color: var(--foreground);
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--background);
+}
+
+.header-container {
+  height: 90vh;
+  width: 90hw;
+}
+
+.header-center {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 1rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.star-small {
+  position: absolute;
+  height: var(--star-small);
+  width: var(--star-small);
+  border-radius: calc(var(--star-small) / 2);
+  background-color: var(--foreground);
+  box-shadow: var(--box-shadow);
+}
+
+.star-medium {
+  position: absolute;
+  height: var(--star-medium);
+  width: var(--star-medium);
+  border-radius: calc(var(--star-medium) / 2);
+  background-color: var(--foreground);
+  box-shadow: var(--box-shadow);
+}
+
+.star-large {
+  position: absolute;
+  height: var(--star-large);
+  width: var(--star-large);
+  border-radius: calc(var(--star-large) / 2);
+  background-color: var(--foreground);
+  box-shadow: var(--box-shadow);
+}
+
+.svg {
+  max-height: 60vh;
+  margin-bottom: 1rem;
+}
+
+.lead-text {
+  margin: 0 5%;
+}
+
+.article-wrapper {
+  width: 90%;
+  margin: 2rem 5%;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1140px) {
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
