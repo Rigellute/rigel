@@ -94,7 +94,12 @@ a {
 
 .article-wrapper {
   width: 90%;
-  margin: 2rem 5%;
+  margin: auto 5%;
+}
+
+.footer-wrapper {
+  background-color: var(--color0);
+  padding: 0.1rem 0;
 }
 
 .palette {
