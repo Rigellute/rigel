@@ -96,8 +96,11 @@ body {
 .palette {
   background-color: white;
   color: var(--background);
-  padding: 9rem;
+  padding: 3rem 1rem;
   border-radius: 0.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .palette-item {
@@ -106,8 +109,8 @@ body {
 }
 
 .colour {
-  height: 7rem;
-  width: 100%;
+  height: 3rem;
+  width: 3rem;
 }
 
 .colour-title {

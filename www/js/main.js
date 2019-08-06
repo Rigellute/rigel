@@ -10,40 +10,16 @@ const palette = {
   White: ["--color7", "--color15"]
 };
 
-/**
- * I now wish I was using jsx
- *
- * This will create markup that looks like this
- *
- * <div class="palette-item">
- *   <p>Title</p>
- *   <div class="colour red"></div>
- *   <div class="colour red-bright"></div>
- * </div>
- */
 function createPaletteItems() {
   const paletteContainer = document.getElementById("palette-container");
 
   for (const key in palette) {
-    const paletteItem = document.createElement("div");
-    paletteItem.className = "palette-item";
-    const pTag = document.createElement("p");
-    pTag.className = "colour-title";
-    const title = document.createTextNode(key);
-    pTag.appendChild(title);
-    paletteItem.appendChild(pTag);
-
-    const colourGroup = document.createElement("div");
-
     for (const colour of palette[key]) {
       const colourItem = document.createElement("div");
       colourItem.className = "colour";
       colourItem.style.backgroundColor = `var(${colour})`;
-      colourGroup.appendChild(colourItem);
+      paletteContainer.appendChild(colourItem);
     }
-
-    paletteItem.appendChild(colourGroup);
-    paletteContainer.appendChild(paletteItem);
   }
 }
 
