@@ -47,6 +47,10 @@ body {
   background-color: var(--background);
 }
 
+a {
+  color: var(--color1);
+}
+
 #starfield {
   position: absolute;
   top: 50%;
@@ -96,7 +100,7 @@ body {
 .palette {
   background-color: white;
   color: var(--background);
-  padding: 3rem 1rem;
+  padding: 1rem;
   border-radius: 0.4rem;
   display: flex;
   flex-wrap: wrap;
