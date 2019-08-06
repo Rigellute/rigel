@@ -10,6 +10,16 @@ const palette = {
   White: ["--color7", "--color15"]
 };
 
+const getWindowWidth = () =>
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
+
+const getWindowHeight = () =>
+  window.innerHeight ||
+  document.documentElement.clientHeight ||
+  document.body.clientHeight;
+
 function createPaletteItems() {
   const paletteContainer = document.getElementById("palette-container");
 
@@ -30,15 +40,8 @@ function createPaletteItems() {
  * `box-shadow` trick.
  */
 function buildStarField() {
-  const width =
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth;
-
-  const height =
-    window.innerHeight ||
-    document.documentElement.clientHeight ||
-    document.body.clientHeight;
+  const width = getWindowWidth();
+  const height = getWindowHeight();
 
   const numberOfStars = Math.floor(width / 3);
 
@@ -69,10 +72,20 @@ function buildStarField() {
   buildStars(starfieldLarge);
 }
 
-function main() {
+let windowWidth = 0;
+function onLoad() {
   buildStarField();
   createPaletteItems();
+  windowWidth = getWindowWidth();
 }
 
-window.addEventListener("load", main);
-window.addEventListener("resize", buildStarField);
+function onResize() {
+  const maybeNewWidth = getWindowWidth();
+  if (windowWidth !== maybeNewWidth) {
+    windowWidth = maybeNewWidth;
+    buildStarField();
+  }
+}
+
+window.addEventListener("load", onLoad);
+window.addEventListener("resize", onResize);
