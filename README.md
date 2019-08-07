@@ -2,15 +2,15 @@
 
 24bit colorscheme based on the star [Rigel](https://en.wikipedia.org/wiki/Rigel) - the bright blue star in the constellation of Orion
 
-<img width="1103" alt="vim" src="https://user-images.githubusercontent.com/12150276/60734656-8cc9ae00-9f48-11e9-9bbb-7020d8f9130f.png">
+<img alt="vim" src="https://user-images.githubusercontent.com/12150276/62640613-e0f5f280-b939-11e9-8d34-f9b61cbdc842.png">
 
-Install
+## Installation
 
 - [Vim](#vim)
 - [Terminal](#terminal)
 - [Slack](#slack)
 
-## Vim
+### Vim
 
 ```vim
 """" install
@@ -52,7 +52,7 @@ Plug 'mxw/vim-jsx'
 
 #### [Airline](https://github.com/vim-airline/vim-airline)
 
-![Airline](https://user-images.githubusercontent.com/12150276/60734661-8e937180-9f48-11e9-9aca-90c7a5d40dbf.png)
+<img alt="airline" src="https://user-images.githubusercontent.com/12150276/62639300-28c74a80-b937-11e9-8376-06bbefceaf10.png">
 
 ```vim
 let g:rigel_airline = 1
@@ -61,16 +61,16 @@ let g:airline_theme = 'rigel'
 
 #### [Lightline](https://github.com/itchyny/lightline.vim)
 
-![Lightline](https://user-images.githubusercontent.com/12150276/62047242-e51b6500-b201-11e9-8403-84929b269084.png)
+<img alt="lightline" src="https://user-images.githubusercontent.com/12150276/62639141-cd955800-b936-11e9-8536-ef77698981cd.png">
 
 ```vim
 let g:rigel_lightline = 1
 let g:lightline = { 'colorscheme': 'rigel' }
 ```
 
-## Terminal
+### Terminal
 
-<img width="1064" alt="terminal" src="https://user-images.githubusercontent.com/12150276/60734655-8cc9ae00-9f48-11e9-994e-70f055945cfb.png">
+<img alt="terminal" src="https://user-images.githubusercontent.com/12150276/60734655-8cc9ae00-9f48-11e9-994e-70f055945cfb.png">
 
 The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pure) prompt and [Fira Code](https://github.com/tonsky/FiraCode) font (size 16) in Alacritty.
 
@@ -88,7 +88,7 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 1. In iTerm2 access the _Preferences_ pane on the _Profiles_ tab.
 1. Under the _Colors_ tab import the [`rigel.itermcolors`](./rigel.itermcolors) file via the _Load Presets_ drop-down at the bottom right.
 
-## Slack
+### Slack
 
 1. Go to Slack's `Preferences` → `Sidebar Theme`
 1. Scroll to the bottom and paste these colors: `#002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67`
