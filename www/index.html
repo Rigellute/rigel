@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" href="css/normalize.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/prism.css" />
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
@@ -44,20 +45,132 @@
     </header>
 
     <article class="article-wrapper">
-      <h2>Palette</h2>
-      <div id="palette-container" class="palette"></div>
-      <h2>Installation</h2>
       <p>
-        The colorscheme has currently been implemented for
-        <a target="_blank" href="https://github.com/Rigellute/rigel#vim">vim</a
-        >, the
-        <a target="_blank" href="https://github.com/Rigellute/rigel#terminal"
-          >terminal</a
-        >, and
-        <a target="_blank" href="https://github.com/Rigellute/rigel#slack"
-          >Slack.</a
-        >
+        <img
+          alt="vim"
+          src="https://user-images.githubusercontent.com/12150276/62640613-e0f5f280-b939-11e9-8d34-f9b61cbdc842.png"
+        />
       </p>
+      <h2 id="installation">Installation</h2>
+      <ul>
+        <li><a href="#vim">Vim</a></li>
+        <li><a href="#terminal">Terminal</a></li>
+        <li><a href="#slack">Slack</a></li>
+      </ul>
+      <h3 id="vim">Vim</h3>
+      <pre><code class="lang-vim"><span class="hljs-string">""</span><span class="hljs-string">""</span> install
+<span class="hljs-comment">" install with vim-plug</span>
+Plug <span class="hljs-string">'Rigellute/rigel'</span>
+
+<span class="hljs-comment">" or with NeoBundle</span>
+<span class="hljs-comment">" NeoBundle 'Rigellute/rigel'</span>
+<span class="hljs-comment">" or with Vundle</span>
+<span class="hljs-comment">" Plugin 'Rigellute/rigel'</span>
+
+<span class="hljs-string">""</span><span class="hljs-string">""</span> enable <span class="hljs-number">24</span>bit true color
+<span class="hljs-keyword">set</span> termguicolors
+
+<span class="hljs-string">""</span><span class="hljs-string">""</span> enable the theme
+<span class="hljs-keyword">syntax</span> enable
+<span class="hljs-keyword">colorscheme</span> rigel
+</code></pre>
+      <p>
+        If you are using JavaScript, I recommend adding
+        <a href="https://github.com/pangloss/vim-javascript">vim-javascript</a>
+        for improved syntax highlighting.
+      </p>
+      <pre><code class="lang-vim"><span class="hljs-attribute">Plug</span> <span class="hljs-string">'pangloss/vim-javascript'</span>
+</code></pre>
+      <p>
+        This theme has good support for flow syntax, which you can enable with
+      </p>
+      <pre><code class="lang-vim"><span class="hljs-comment">" Once vim-javascript is installed you enable flow highlighting</span>
+<span class="hljs-keyword">let</span> <span class="hljs-variable">g:javascript_plugin_flow</span> = <span class="hljs-number">1</span>
+</code></pre>
+      <p>
+        If you are using React, I recommend adding
+        <a href="https://github.com/mxw/vim-jsx">vim-jsx</a> for better jsx
+        highlighting
+      </p>
+      <pre><code class="lang-vim"><span class="hljs-attribute">Plug</span> <span class="hljs-string">'mxw/vim-jsx'</span>
+</code></pre>
+      <h4 id="-airline-https-github-com-vim-airline-vim-airline-">
+        <a href="https://github.com/vim-airline/vim-airline">Airline</a>
+      </h4>
+      <p>
+        <img
+          alt="airline"
+          src="https://user-images.githubusercontent.com/12150276/62639300-28c74a80-b937-11e9-8376-06bbefceaf10.png"
+        />
+      </p>
+      <pre><code class="lang-vim"><span class="hljs-keyword">let</span> <span class="hljs-variable">g:rigel_airline</span> = <span class="hljs-number">1</span>
+<span class="hljs-keyword">let</span> <span class="hljs-variable">g:airline_theme</span> = <span class="hljs-string">'rigel'</span>
+</code></pre>
+      <h4 id="-lightline-https-github-com-itchyny-lightline-vim-">
+        <a href="https://github.com/itchyny/lightline.vim">Lightline</a>
+      </h4>
+      <p>
+        <img
+          alt="lightline"
+          src="https://user-images.githubusercontent.com/12150276/62639141-cd955800-b936-11e9-8536-ef77698981cd.png"
+        />
+      </p>
+      <pre><code class="lang-vim"><span class="hljs-keyword">let</span> <span class="hljs-variable">g:rigel_lightline</span> = <span class="hljs-number">1</span>
+<span class="hljs-keyword">let</span> <span class="hljs-variable">g:lightline</span> = { <span class="hljs-string">'colorscheme'</span>: <span class="hljs-string">'rigel'</span> }
+</code></pre>
+      <h3 id="terminal">Terminal</h3>
+      <p>
+        <img
+          alt="terminal"
+          src="https://user-images.githubusercontent.com/12150276/60734655-8cc9ae00-9f48-11e9-994e-70f055945cfb.png"
+        />
+      </p>
+      <p>
+        The terminal screenshot above is using
+        <a href="https://github.com/sindresorhus/pure">Pure</a> prompt and
+        <a href="https://github.com/tonsky/FiraCode">Fira Code</a> font (size
+        16) in Alacritty.
+      </p>
+      <h4 id="alacritty">Alacritty</h4>
+      <ol>
+        <li>
+          Copy <a href="./alacritty.yml">alacritty.yml</a> and paste into
+          <code>~/.config/alacritty/alacritty.yml</code>
+        </li>
+      </ol>
+      <h4 id="kitty">Kitty</h4>
+      <ol>
+        <li>
+          Copy <a href="./kitty.conf">kitty.conf</a> and paste into
+          <code>~/.config/kitty/kitty.conf</code>
+        </li>
+      </ol>
+      <h4 id="iterm2">iTerm2</h4>
+      <ol>
+        <li>
+          Download
+          <a href="./rigel.itermcolors"><code>rigel.itermcolors</code></a>
+        </li>
+        <li>
+          In iTerm2 access the <em>Preferences</em> pane on the
+          <em>Profiles</em> tab.
+        </li>
+        <li>
+          Under the <em>Colors</em> tab import the
+          <a href="./rigel.itermcolors"><code>rigel.itermcolors</code></a> file
+          via the <em>Load Presets</em> drop-down at the bottom right.
+        </li>
+      </ol>
+      <h3 id="slack">Slack</h3>
+      <ol>
+        <li>
+          Go to Slack&#39;s <code>Preferences</code> →
+          <code>Sidebar Theme</code>
+        </li>
+        <li>Scroll to the bottom and paste these colors:</li>
+      </ol>
+      <pre><code>#<span class="hljs-number">002635</span>,#<span class="hljs-number">00384</span>D,#F08E48,#E6E6DC,#<span class="hljs-number">00384</span>D,#B7CFF9,#<span class="hljs-number">00</span>FFFF,#FF5A67
+</code></pre>
     </article>
 
     <footer class="footer-wrapper">
@@ -69,8 +182,8 @@
         </p>
       </div>
     </footer>
-
     <script src="js/main.js"></script>
+    <script src="js/prism.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

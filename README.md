@@ -91,4 +91,8 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 ### Slack
 
 1. Go to Slack's `Preferences` → `Sidebar Theme`
-1. Scroll to the bottom and paste these colors: `#002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67`
+1. Scroll to the bottom and paste these colors:
+
+```
+#002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67
+```
