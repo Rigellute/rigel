@@ -80,7 +80,7 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 
 #### Kitty
 
-1. Copy [kitty.conf](./kitty.conf) and paste into `~/.config/kitty/kitty.conf`
+1. Copy [kitty.conf](./kitty.config) and paste into `~/.config/kitty/kitty.conf`
 
 #### iTerm2
 
