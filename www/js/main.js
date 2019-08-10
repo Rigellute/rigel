@@ -25,7 +25,7 @@ function createPaletteItems() {
 
   const coloursToHide = ["Primary", "Black", "White"];
 
-  const height = 3;
+  const height = 5;
   // Golden ratio
   const phi = (1 + Math.sqrt(5)) / 2;
   const width = height / phi;
@@ -40,7 +40,7 @@ function createPaletteItems() {
       const styles = `
         background-color: ${colour};
         height: ${height}rem;
-        margin: 0 0.3rem;
+        margin: 0 0.2rem;
         width: ${width}rem;
       `;
 
