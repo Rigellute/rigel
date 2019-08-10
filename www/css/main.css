@@ -61,12 +61,14 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 0;
   width: 1px;
   height: 1px;
 }
 
 #starfield-large {
   position: absolute;
+  z-index: 0;
   top: 50%;
   left: 50%;
   width: 2px;
@@ -93,6 +95,7 @@ a {
 
 .svg {
   max-height: 60vh;
+  z-index: 0;
   margin-bottom: 1rem;
 }
 
@@ -113,6 +116,16 @@ a {
   padding: 0.1rem 0;
 }
 
+#palette-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2.625rem 1.3125rem;
+  z-index: 1;
+  background-color: var(--background);
+}
+
 .palette {
   background-color: white;
   color: var(--background);
@@ -129,8 +142,9 @@ a {
 }
 
 .colour {
-  height: 3rem;
-  width: 3rem;
+  height: 4rem;
+  margin: 0 0.5rem;
+  width: 2.47rem;
 }
 
 .colour-title {

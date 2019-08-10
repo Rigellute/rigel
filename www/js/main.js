@@ -1,13 +1,13 @@
 const palette = {
-  Primary: ["--foreground", "--background"],
-  Black: ["--color0", "--color8"],
-  Red: ["--color1", "--color9"],
-  Green: ["--color2", "--color10"],
-  Yellow: ["--color3", "--color11"],
-  Blue: ["--color4", "--color12"],
-  Magenta: ["--color5", "--color13"],
-  Cyan: ["--color6", "--color14"],
-  White: ["--color7", "--color15"]
+  Primary: ["#e6e6dc", "#002635"],
+  Black: ["#00384d", "#517f8d"],
+  Red: ["#c43060", "#ff5a67"],
+  Green: ["#7fc06e", "#9cf087"],
+  Yellow: ["#f08e48", "#ffcc1b"],
+  Blue: ["#1c8db2", "#7eb2dd"],
+  Magenta: ["#c694ff", "#fb94ff"],
+  Cyan: ["#00cccc", "#00ffff"],
+  White: ["#77929e", "#b7cff9"]
 };
 
 const getWindowWidth = () =>
@@ -23,11 +23,28 @@ const getWindowHeight = () =>
 function createPaletteItems() {
   const paletteContainer = document.getElementById("palette-container");
 
+  const coloursToHide = ["Primary", "Black", "White"];
+
+  const height = 3;
+  // Golden ratio
+  const phi = (1 + Math.sqrt(5)) / 2;
+  const width = height / phi;
+
   for (const key in palette) {
+    if (coloursToHide.includes(key)) {
+      continue;
+    }
     for (const colour of palette[key]) {
       const colourItem = document.createElement("div");
-      colourItem.className = "colour";
-      colourItem.style.backgroundColor = `var(${colour})`;
+
+      const styles = `
+        background-color: ${colour};
+        height: ${height}rem;
+        margin: 0 0.3rem;
+        width: ${width}rem;
+      `;
+
+      colourItem.setAttribute("style", styles);
       paletteContainer.appendChild(colourItem);
     }
   }
