@@ -1,6 +1,8 @@
 # Rigel ✨
 
-24bit colorscheme based on the star [Rigel](https://en.wikipedia.org/wiki/Rigel) - the bright blue star in the constellation of Orion
+<img alt="vim" src="https://user-images.githubusercontent.com/12150276/62867869-37817900-bd0c-11e9-8f99-1e571834d285.png">
+
+A 24bit colorscheme based on the star [Rigel](https://en.wikipedia.org/wiki/Rigel) - the bright blue star in the constellation of Orion
 
 <img alt="vim" src="https://user-images.githubusercontent.com/12150276/62640613-e0f5f280-b939-11e9-8d34-f9b61cbdc842.png">
 
