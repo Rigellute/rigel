@@ -1,6 +1,6 @@
 # Rigel ✨
 
-<img alt="vim" src="https://user-images.githubusercontent.com/12150276/62867869-37817900-bd0c-11e9-8f99-1e571834d285.png">
+<img alt="vim" src="https://user-images.githubusercontent.com/12150276/62868142-d9a16100-bd0c-11e9-8d25-9e28afa6df37.png">
 
 A 24bit colorscheme based on the star [Rigel](https://en.wikipedia.org/wiki/Rigel) - the bright blue star in the constellation of Orion
 
