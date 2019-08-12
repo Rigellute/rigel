@@ -20,16 +20,18 @@ const getWindowHeight = () =>
   document.documentElement.clientHeight ||
   document.body.clientHeight;
 
+// Golden ratio
+const phi = (1 + Math.sqrt(5)) / 2;
+
 function createPaletteItems() {
   const paletteContainer = document.getElementById("palette-container");
 
   const coloursToHide = ["Primary", "Black", "White"];
 
   const height = 5;
-  // Golden ratio
-  const phi = (1 + Math.sqrt(5)) / 2;
   const width = height / phi;
 
+  // Don't show all the colours from the palette
   for (const key in palette) {
     if (coloursToHide.includes(key)) {
       continue;
@@ -42,6 +44,7 @@ function createPaletteItems() {
         height: ${height}rem;
         margin: 0 0.2rem;
         width: ${width}rem;
+        border-radius: 0.3rem;
       `;
 
       colourItem.setAttribute("style", styles);
@@ -49,6 +52,31 @@ function createPaletteItems() {
     }
   }
 }
+
+function generateWeightedList(jsMap) {
+  const weightedList = [];
+
+  for (var [color, weight] of jsMap.entries()) {
+    const multiples = weight * 100;
+
+    // Loop over the list of items
+    for (let j = 0; j < multiples; j++) {
+      weightedList.push(color);
+    }
+  }
+
+  return weightedList;
+}
+
+const colourWeightMap = new Map([
+  [palette.Primary[0], 0.4],
+  [palette.White[1], 0.2],
+  [palette.Blue[0], 0.2],
+  [palette.Magenta[1], 0.1],
+  [palette.Red[1], 0.1]
+]);
+
+const colours = generateWeightedList(colourWeightMap);
 
 /**
  * Creating a large number of stars as individual html elements was slow.
@@ -60,11 +88,7 @@ function buildStarField() {
   const width = getWindowWidth();
   const height = getWindowHeight();
 
-  const numberOfStars = Math.floor(width / 3);
-
-  const colours = ["#e6e6dc", "#77929e", "#b7cff9"];
-
-  function buildStars(starElement) {
+  function buildStars(starElement, numberOfStars) {
     const boxShadow = Array(numberOfStars)
       .fill(0)
       .map(() => {
@@ -83,10 +107,12 @@ function buildStarField() {
   }
 
   const starfieldSmall = document.getElementById("starfield");
+  const starfieldMedium = document.getElementById("starfield-medium");
   const starfieldLarge = document.getElementById("starfield-large");
 
-  buildStars(starfieldSmall);
-  buildStars(starfieldLarge);
+  buildStars(starfieldSmall, Math.floor(width / 2));
+  buildStars(starfieldMedium, Math.floor(width / 3));
+  buildStars(starfieldLarge, Math.floor(width / 10));
 }
 
 let windowWidth = 0;

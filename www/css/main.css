@@ -57,22 +57,29 @@ a {
   color: var(--color1);
 }
 
-#starfield {
+.starfield {
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 0;
+}
+
+#starfield {
   width: 1px;
   height: 1px;
+  border-radius: 1px;
+}
+
+#starfield-medium {
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
 }
 
 #starfield-large {
-  position: absolute;
-  z-index: 0;
-  top: 50%;
-  left: 50%;
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
+  border-radius: 2px;
 }
 
 .container {
