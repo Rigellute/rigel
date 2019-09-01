@@ -1,9 +1,9 @@
 # BASE UI
-ColorColumn: 'background'
+ColorColumn: '- backgroundDark'
 Conceal: ''
 Cursor: '- color3'
 CursorIM: ''
-CursorColumn: '- color0'
+CursorColumn: '- backgroundDark'
 CursorLine: '- backgroundDark'
 CursorLineNr: 'color15 backgroundDark'
 LineNr: 'color7 background'
