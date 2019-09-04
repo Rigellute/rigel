@@ -12,6 +12,10 @@ A 24bit colorscheme based on the star [Rigel](https://en.wikipedia.org/wiki/Rige
 - [Terminal](#terminal)
 - [Slack](#slack)
 
+## Troubleshooting
+
+- [Colours don't look right](#colours-dont-look-right)
+
 ### Vim
 
 ```vim
@@ -98,3 +102,23 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 ```
 #002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67
 ```
+
+### Colours don't look right
+
+If you are running `vim` within `tmux`, you may run into some `truecolor` issues.
+
+To fix, add this to you `tmux.conf`
+
+```tmux
+set -g terminal-overrides ',xterm-256color:Tc'
+set -g default-terminal "tmux-256color"
+set -as terminal-overrides ',xterm*:sitm=\E[3m'
+```
+
+And in you `bash_profile/.zshrc`
+
+```bash
+export TERM="xterm-256color"
+```
+
+Ensure you `tmux kill-server`, quit your emulator of choice and startup it all back up again. It should then look 👌.
