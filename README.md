@@ -16,6 +16,8 @@ A 24bit colorscheme based on the star [Rigel](https://en.wikipedia.org/wiki/Rige
 
 - [Colours don't look right](#colours-dont-look-right)
 
+# Install
+
 ### Vim
 
 ```vim
@@ -102,6 +104,8 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 ```
 #002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67
 ```
+
+# Troubleshooting
 
 ### Colours don't look right
 
