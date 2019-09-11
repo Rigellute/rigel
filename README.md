@@ -107,6 +107,10 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 
 # Troubleshooting
 
+### True color
+
+Make sure you are using a terminal emulator that supports `truecolor`. Read more about this [here](https://gist.github.com/XVilka/8346728).
+
 ### Colours don't look right
 
 If you are running `vim` within `tmux`, you may run into some `truecolor` issues.
