@@ -96,6 +96,13 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 1. In iTerm2 access the _Preferences_ pane on the _Profiles_ tab.
 1. Under the _Colors_ tab import the [`rigel.itermcolors`](./rigel.itermcolors) file via the _Load Presets_ drop-down at the bottom right.
 
+#### macOS Terminal.app
+
+1. Download [`rigel.terminal`](./rigel.terminal)
+1. Terminal > Preferences > Profiles > [+] button to select file and use theme
+
+Note Terminal.app doesn't support [truecolor](https://gist.github.com/XVilka/8346728), so colors might look slightly faded.
+
 ### Slack
 
 1. Go to Slack's `Preferences` → `Sidebar Theme`
