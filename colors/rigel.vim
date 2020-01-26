@@ -4,7 +4,7 @@
 " URL: https://github.com/Rigellute/rigel
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/11/02 17:09
+" Last Change: 2020/01/26 16:33
 " ===============================================================
 
 set background=dark
@@ -58,7 +58,7 @@ hi TabLine guifg=#77929e ctermfg=246 guibg=#00384d ctermbg=23 gui=NONE cterm=NON
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#00384d ctermbg=23 gui=NONE cterm=NONE
 hi TabLineSel guifg=#e6e6dc ctermfg=254 guibg=#1c8db2 ctermbg=31 gui=NONE cterm=NONE
 hi Title guifg=#00ffff ctermfg=14 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Visual guifg=NONE ctermfg=NONE guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#194b5e ctermbg=23 gui=NONE cterm=NONE
 hi WildMenu guifg=#e6e6dc ctermfg=254 guibg=#517f8d ctermbg=66 gui=NONE cterm=NONE
 hi Comment guifg=#77929e ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#f08e48 ctermfg=209 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

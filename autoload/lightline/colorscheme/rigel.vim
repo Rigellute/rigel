@@ -4,7 +4,7 @@
 " URL: https://github.com/Rigellute/rigel
 " Author: Alexander Keliris
 " License: MIT
-" Last Change: 2019/07/29 11:45
+" Last Change: 2020/01/26 16:33
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }

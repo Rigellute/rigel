@@ -1,39 +1,39 @@
-backgroundDark:   '#001a25'
+backgroundDark: "#001a25"
+visualSelection: "#194b5e"
 
 # special
-foreground:   '#e6e6dc'
-background:   '#002635'
-cursorColor:  '#e6e6dc'
+foreground: "#e6e6dc"
+background: "#002635"
+cursorColor: "#e6e6dc"
 
 # black
-color0:       '#00384d'
-color8:       '#517f8d'
+color0: "#00384d"
+color8: "#517f8d"
 
 # red
-color1:       '#c43060'
-color9:       '#ff5a67'
+color1: "#c43060"
+color9: "#ff5a67"
 
 # green
-color2:       '#7fc06e'
-color10:      '#9cf087'
+color2: "#7fc06e"
+color10: "#9cf087"
 
 # yellow
-color3:       '#f08e48'
-color11:      '#ffcc1b'
+color3: "#f08e48"
+color11: "#ffcc1b"
 
 # blue
-color4:       '#1c8db2'
-color12:      '#7eb2dd'
+color4: "#1c8db2"
+color12: "#7eb2dd"
 
 # magenta
-color5:       '#c694ff'
-color13:      '#fb94ff'
+color5: "#c694ff"
+color13: "#fb94ff"
 
 # cyan
-color6:       '#00cccc'
-color14:      '#00ffff'
+color6: "#00cccc"
+color14: "#00ffff"
 
 # white
-color7:       '#77929e'
-color15:      '#b7cff9'
-
+color7: "#77929e"
+color15: "#b7cff9"
