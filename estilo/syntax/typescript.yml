@@ -1,0 +1,68 @@
+# Javascript - pangloss/vim-javascript
+typescriptVariable: "color4"
+typescriptValue: "color5"
+typescriptObjectLabel: "color5"
+typescriptPrimaryType: "color5"
+typescriptMember: "color5"
+typescriptMemberOptionality: "color5"
+typescriptVariableDeclaration: "color15"
+
+typescriptProp: "color4"
+typescriptStatement: "@Keyword"
+typescriptStorageClass: "@Keyword"
+typescriptExtendsKeyword: "@Keyword"
+typescriptTemplateString: "color2"
+typescriptEnum: "color13"
+typescriptReturn: "@Keyword"
+typescriptTryCatchBlock: "@Boolean"
+typescriptTernary: "@Boolean"
+typescriptAsyncKeyword: "@Boolean"
+typescriptObjectAsyncKeyword: "@Boolean"
+typescriptObjectColon: "color4"
+typescriptAsyncFor: "@Boolean"
+typescriptForAwait: "@Boolean"
+typescriptGlobalNodeObjects: "color5"
+typescriptGlobal: "color5"
+# Modules
+typescriptImport: "color4 - i"
+typescriptExportType: "color4 - i"
+typescriptImportType: "@Keyword"
+typescriptFrom: "@Keyword"
+typescriptModuleAs: "@Keyword"
+typescriptModule: "@Keyword"
+typescriptModuleKeyword: "color15"
+typescriptModuleAsterisk: "@Keyword"
+typescriptExport: "@Keyword"
+typescriptExportDefault: "@Keyword"
+
+typescriptCastKeyword: "@Function"
+
+# Function
+typescriptGenerator: "@Function"
+typescriptFunction: "@Keyword"
+
+# Builtins
+typescriptComment: "" # Comment
+typescriptLineComment: "" # Comment
+typescriptCommentTodo: "" # Todo
+typescriptSpecial: "" # Special
+typescriptStringS: "" # String
+typescriptStringD: "" # String
+typescriptCharacter: "" # Character
+typescriptSpecialCharacter: "" # typescriptSpecial
+typescriptNumber: "" # typescriptValue
+typescriptConditional: "" # Conditional
+typescriptRepeat: "" # Repeat
+typescriptBranch: "" # Conditional
+typescriptOperator: "" # Operator
+typescriptType: "" # Type
+typescriptError: "@Error" # Error
+typescriptParensError: "" # Error
+typescriptNull: "" # Keyword
+typescriptBoolean: "@Boolean" # Boolean
+
+# typescriptX highlighting
+xmlAttrib: "color9"
+xmlTag: "@Function"
+xmlTagName: "@xmlTag"
+xmlEndTag: "@xmlTag"
