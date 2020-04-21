@@ -199,10 +199,10 @@ esprima@^4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-estilo@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/estilo/-/estilo-1.5.0.tgz#fa27478ab0fa9ed55dddcfd5f2c592dfd928905b"
-  integrity sha512-IqHUqeNX4ZvuC+G32zmQGhb4absKQF1l/NjJhRS6EpEwZx2CD4E/+b/WDkj15GYJyyOUb+BCshBta582Wm46tQ==
+estilo@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/estilo/-/estilo-1.4.1.tgz#b8847e5abd2da3b52c1da26a5c423ab8a6bda391"
+  integrity sha512-zIuF8rbuWsOXIr38dJt9jbZMkEELaq2fHg+XpkqgwpH3u8OExdY47xcuIVPjifTqAkDJBvdy2wU6pGGenwH78g==
   dependencies:
     chalk "^1.1.3"
     date-format "0.0.2"
