@@ -39,6 +39,8 @@ syntax enable
 colorscheme rigel
 ```
 
+##### JavaScript and TypeScript
+
 If you are using JavaScript, I recommend adding [vim-javascript](https://github.com/pangloss/vim-javascript) for improved syntax highlighting.
 
 ```vim
@@ -58,6 +60,10 @@ If you are using React, I recommend adding [vim-jsx](https://github.com/mxw/vim-
 ```vim
 Plug 'mxw/vim-jsx'
 ```
+
+This theme also has good support for Typescript, which is enabled by default. You might just need to add a plugin for Typescript syntax.
+
+I recommend [leafgarland/typescript-vim](https://github.com/leafgarland/typescript-vim).
 
 #### [Airline](https://github.com/vim-airline/vim-airline)
 
