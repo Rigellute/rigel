@@ -106,7 +106,9 @@ Note Terminal.app doesn't support [truecolor](https://gist.github.com/XVilka/834
 
 ### VS Code
 
-Thanks to @mrmartineau, the Rigel theme is ported to VS Code, which can be found [here](https://marketplace.visualstudio.com/items?itemName=mrmartineau.rigel-vscode). The theme can be installed via "extensions" from the Visual Studio Marketplace.
+Thanks to [mrmartineau](https://github.com/mrmartineau), the Rigel theme is ported to VS Code, which can be found [here](https://marketplace.visualstudio.com/items?itemName=mrmartineau.rigel-vscode). The theme can be installed via "extensions" from the Visual Studio Marketplace.
+
+[VS Code port repo](https://github.com/mrmartineau/rigel-vscode).
 
 ### Slack
 
