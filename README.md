@@ -118,8 +118,9 @@ Thanks to [mrmartineau](https://github.com/mrmartineau), the Rigel theme is port
 
 ### Slack
 
-1. Go to Slack's `Preferences` → `Sidebar Theme`
-1. Scroll to the bottom and paste these colors:
+1. Go to Slack's `Preferences` → `Themes`
+2. Click on custom themes.
+3. Scroll to the bottom and paste these colors:
 
 ```
 #002635,#00384D,#F08E48,#E6E6DC,#00384D,#B7CFF9,#00FFFF,#FF5A67
