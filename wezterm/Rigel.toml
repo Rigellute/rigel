@@ -1,0 +1,33 @@
+# A Rigel colorscheme file for WezTerm
+# Install instructions at https://wezfurlong.org/wezterm/config/appearance.html
+# Short version: 
+#   place this file in ~/.config/wezters/colors on POSIX or in a directory named
+#   "colors" in the same directory as "wezterm.exe" if you are on Windows
+#   Then add `color_scheme = "Rigel"` to your wezterm.lua
+
+[colors]
+background = "#002635"
+foreground = "#e6e6dc"
+cursor_bg = "#ffcc1b"
+cursor_border = "#ffcc1b"
+cursor_fg = "#002635"
+selection_fg = "#002635"
+selection_bg = "#fffacd"
+
+ansi = ["#00384d"
+       , "#c43061"
+       , "#7fc06e"
+       , "#f08e48"
+       , "#1c8db2"
+       , "#c694ff"
+       , "#00cccc"
+       , "#77929e"]
+
+bright = ["#517f8d"
+         , "#ff5a67"
+         , "#9cf087"
+         , "#ffcc1b"
+         , "#7eb2dd"
+         , "#fb94ff"
+         , "#00ffff"
+         , "#b7cff9"]
