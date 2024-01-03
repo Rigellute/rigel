@@ -91,6 +91,10 @@ The terminal screenshot above is using [Pure](https://github.com/sindresorhus/pu
 
 #### Alacritty
 
+If you are using Alacritty version 0.13.0 or newer:
+1. Copy [alacritty.toml](./alacritty.toml) and paste into `~/.config/alacritty/alacritty.toml`
+
+otherwise:
 1. Copy [alacritty.yml](./alacritty.yml) and paste into `~/.config/alacritty/alacritty.yml`
 
 #### Kitty
