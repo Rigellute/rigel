@@ -114,6 +114,11 @@ otherwise:
 
 Note Terminal.app doesn't support [truecolor](https://gist.github.com/XVilka/8346728), so colors might look slightly faded.
 
+
+#### Warp
+
+1. Copy [warp.yml](./warp.yml) and paste into `~/.warp/themes`
+
 ### VS Code
 
 Thanks to [mrmartineau](https://github.com/mrmartineau), the Rigel theme is ported to VS Code, which can be found [here](https://marketplace.visualstudio.com/items?itemName=mrmartineau.rigel-vscode). The theme can be installed via "extensions" from the Visual Studio Marketplace.
